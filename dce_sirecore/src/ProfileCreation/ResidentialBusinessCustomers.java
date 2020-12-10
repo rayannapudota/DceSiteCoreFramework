@@ -7,7 +7,7 @@ public class ResidentialBusinessCustomers {
 
 	public static void main(String[] args) {
 		System.out.println("Starting ResidentialBusinessCustomers Class\n");
-		System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\Browser Drivers\\chromedriver_win32\\chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
 			driver.get("https://www.consumersenergy.com/");
 			driver.close();
